@@ -1,0 +1,1 @@
+# rabbitmq-buffer-manager
