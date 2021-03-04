@@ -1,0 +1,21 @@
+{
+  "name": "rabbitmq-buffer-manager",
+  "version": "0.0.1",
+  "description": "both sender and receiver",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "prepublish": "tsc"
+  },
+  "keywords": [],
+  "author": "sanchezjo",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.7.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.5.17"
+  }
+}
