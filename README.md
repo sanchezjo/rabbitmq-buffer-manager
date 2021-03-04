@@ -1,4 +1,4 @@
-#RabbitMQ-buffer-manager
+# RabbitMQ-buffer-manager
 
 ## what is it for
 ***Instanciate a RabbitMq connection for both send and receive message without using cb, promise, await...**
